@@ -39,7 +39,7 @@ background thread and is always up to date. And the system does it all
 for you (as long as you have a ContentProvider). What's not to like?
 
 ### What's a ContentProvider
-A ContentProvider is seperate from the actual data. In this example, and many
+A ContentProvider is separate from the actual data. In this example, and many
 real world applications, the data is stored in an SQLite database. But it doesn't
 have to be. We will use the Provider to supply our list with content. The advantage
 over a simple ArrayAdapter will be that if the data changes, the list will change,
